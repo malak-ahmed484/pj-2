@@ -1121,7 +1121,7 @@ body {
     width: 80%;
     height: 250px;color: #000;
     display: grid;margin: auto;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    grid-template-columns:2fr  1.5fr 1.5fr 1.5fr 1.5fr;
     gap: 3%;
     border-bottom: 1px solid  rgb(250, 70, 217);
     padding: 5px 0px;
