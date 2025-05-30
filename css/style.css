@@ -916,7 +916,7 @@ body {
     width: 100%;
     margin: auto;
     position: relative;
-    background-color: rgb(228 240 225);
+    background-color: rgb(254, 215, 247);
 }
 
 .last_news_parent {
@@ -1229,4 +1229,9 @@ body {
 }
 .panda{
     font-weight: bold;
+}
+@media (max-width:567) {
+    .body{
+    flex-direction: column;
+}
 }
