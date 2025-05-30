@@ -916,7 +916,7 @@ body {
     width: 100%;
     margin: auto;
     position: relative;
-    background-color: rgb(254, 215, 247);
+    background-color: rgb(252, 176, 238);
 }
 
 .last_news_parent {
@@ -1057,14 +1057,13 @@ body {
 .footer_container {
     width: 100%;
     height: 500px;
-    background-color: #000000;
+    background-color: #f5b1d0;
     position: relative;
 }
 
 .footer_parent {
     width: 80%;
     height: 100%;
-    /* background-color: #000000; */
     margin: auto;
     padding: 50px 0px;
 }
@@ -1084,18 +1083,12 @@ body {
 }
 
 .footer_header_content h3 {
-    margin: 10px 0px;
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .footer_header_content span {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 13px;
+    font-size: 21px;
+    margin: 20px 0px;
 }
 
 .footer_header_content i {
@@ -1121,15 +1114,15 @@ body {
     color: #fcfcfc;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .footer_content {
-    width: 100%;
-    height: 250px;
-    display: grid;
-    grid-template-columns: 2fr 1.5fr 1.5fr 1.5fr 1.5fr;
-    gap: 5%;
+    width: 80%;
+    height: 250px;color: #000;
+    display: grid;margin: auto;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    gap: 3%;
     border-bottom: 1px solid  rgb(250, 70, 217);
     padding: 5px 0px;
 }
@@ -1182,6 +1175,7 @@ body {
     text-align: center;
     justify-content: center;
     font-size: 15px;
+    color: #000;
     
 }
 .footer_header_content2{
